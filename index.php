@@ -18,5 +18,12 @@ $f3->route('GET /', function(){
     echo 'Pet Home';
 });
 
+
+$f3->route('GET /home', function(){
+    // display the home page
+    $view = new Template();
+    echo $view->render('views/home.html');
+});
+
 // run fat-free
 $f3->run();
