@@ -1,0 +1,16 @@
+{
+  "name": "328/petss",
+  "author": [
+    {
+      "name": "Jada Senebouttarath",
+      "email": "jsenebouttarath@mail.greenriver.edu"
+    },
+    {
+      "name": "Peter Eang",
+      "email": "peang@greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
